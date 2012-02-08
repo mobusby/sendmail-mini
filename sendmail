@@ -25,8 +25,8 @@ cat >> $SYSMBOX
 # add a custom footer, so we know this script was used
 echo "" >> $SYSMBOX
 echo "----------" >> $SYSMBOX
-echo "Sent using sendmail-mini,"
-echo "http://www.BusbyCreations.com/apps/#sendmail-mini"
+echo "Sent using sendmail-mini," >> $SYSMBOX
+echo "http://www.BusbyCreations.com/apps/#sendmail-mini" >> $SYSMBOX
 echo "sendmail params: $PARAMS" >> $SYSMBOX
 
 # add a blank line to separate from next message (mbox format)
