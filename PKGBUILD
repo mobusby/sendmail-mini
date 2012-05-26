@@ -33,3 +33,5 @@ package() {
 
   make DESTDIR="$pkgdir/" install
 }
+
+install -D -m644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
